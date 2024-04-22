@@ -17,5 +17,11 @@ new custom install have to be chosen
 click new in the right side corner(size should be changed as 20,000)-->apply
 delete all drive except drive 0
 click new -->the size automatically decreased-->apply-->next
+after installation give new password 
+domain controller has been opened
+windows-->dashboard-->server manager-->local server
+dashboard -->add roles anf features-->next-->rolebased-->ip displayed-->server roles-->active directory domain serices,dns server-->nextconformation(restart checkbox)-->install
+click the warning button-->promote-->add a new domain to an existing forest-->enter team name-->-->root domain name(in lowercase).local-->next-->domain controller option-->give password--->next-->path
+cmd-->ping
 
 
